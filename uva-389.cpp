@@ -37,11 +37,11 @@ main()
 			ch[save++]='0';
 		while(value)
 		{
-			ch[save++]=change2(value%base2)
-			value/=base2;
+			ch[save++]=change2(value%base2);
+			value=value/base2;
 		}
 		if(save>7)
-			cout<<"ERROR"<<endl;
+			cout<<"  ERROR"<<endl;
 		else
 		{
 			for(int i=save;i<7;++i)
