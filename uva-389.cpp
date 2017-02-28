@@ -25,7 +25,7 @@ int change2(char c)
 main()
 {
 	int base1,base2;
-	while(cin>>ch>>base1>>base2)
+	while(scanf("%s%d%d",ch,&base1,&base2)!=EOF)
 	{
 		int value=0,move=0,save=0;
 		while(ch[move])
